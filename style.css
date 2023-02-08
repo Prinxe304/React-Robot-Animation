@@ -1,0 +1,49 @@
+body {
+  background: #CD7640;
+  overflow: hidden;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+color: white;
+}
+
+.config p {
+font-size: x-large;
+}
+
+.config {
+position: relative;
+}
+
+.control-wrap {
+float: left;
+margin: -15px 15px;
+}
+
+.stripe {
+  position: absolute;
+  width: 100%;
+}
+.stripe.one {
+  background: #7699B7;
+  height: 7px;
+  opacity: .8;
+  z-index: 1;
+
+  top: 3px;
+}
+.stripe.two {
+  background: #CD7640;
+  height: 4px;
+
+  top: 14px;
+}
+.stripe.three {
+  background: #999;
+  height: 4px;
+  opacity: .5;
+
+  bottom: 3px;
+}
