@@ -1,4 +1,3 @@
-// I've seen a few of these BB-8 animations about, so I thought I'd take a shot at building one using React as a bit of an exercise. My favorite thing to do is draw circles around him to make him do a little jig, but I'm easily amused.
 
 class App extends React.Component {
     constructor(props){
